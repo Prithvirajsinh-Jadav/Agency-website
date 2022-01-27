@@ -59,7 +59,7 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .masthead {
     padding-top: 4rem;
   }
@@ -151,22 +151,30 @@
     padding-left: 5%;
   }
 
+  .last-class div {
+    margin: 0 0 0 .75rem !important;
+  }
+
   .timeline-image{
   width: 40%;
   }
 
-.timeline::before{
+  .timeline::before{
   left:15%;
-}
+  }
   
+  .custom-bg{
+    width:30%;
+    height: 80px;
+  }
 
 
 
-   .last-class div {
+   /* .last-class div {
     margin: 0 !important;
     width: 30%;  
     
-  }
+  } */
 
    .custom-bg h4 {
     font-size: .875rem;
